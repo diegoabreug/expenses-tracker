@@ -1,16 +1,26 @@
-# expenses_tracker
+# Expense Tracker
 
-A new Flutter project.
+A Flutter mobile app to log, categorize, and manage personal daily expenses.
+
+## Features
+
+- Add expenses via bottom sheet modal with title, amount, date, and category
+- Swipe to delete with undo support via snackbar
+- Category icons for food, travel, leisure, and study
+- Live total spending banner that updates in real time
+
+## Tech Stack
+
+Flutter · Dart · Google Fonts · intl · uuid
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+```bash
+flutter pub get
+flutter run
+```
 
-A few resources to get you started if this is your first Flutter project:
+## Course
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+IDS349 — Desarrollo de Aplicaciones Móviles  
+Instituto Tecnológico de Santo Domingo (INTEC)
